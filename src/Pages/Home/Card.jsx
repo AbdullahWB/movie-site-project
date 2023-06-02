@@ -17,7 +17,7 @@ const Card = () => {
 
     return (
         <div>
-            <h1>Your all Show in here</h1>
+            <h1 className='text-4xl text-center font-semibold'>Your all Show in here</h1>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-8'>
                 {
                     show.map(show => <SingleCard
